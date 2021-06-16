@@ -1,1 +1,305 @@
 /*  Add your styling here */
+
+body
+{
+    padding: 0;
+    margin: 0;
+    
+    overflow-x: hidden;
+    background-color: rgb(251, 235, 245);
+    
+}
+
+.header
+{
+    display: flex;
+    justify-content:space-between;
+}
+#logo
+{
+    width:200px ;
+    height:190px ;
+}
+
+.header i
+{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.head-2
+{
+    height: 720px;
+    margin: 0;
+}
+.navbar
+{
+    display:flex;
+}
+.navbar ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    display: none;
+    
+    
+   
+}
+.navbar ul li
+{
+    padding: 10px;
+    
+}
+
+.list-nav li a 
+{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+   
+}
+#img-cover
+{
+    
+    height: 480px;
+    width: 100%;
+    
+
+}
+
+.info
+{
+    position: relative;
+}
+.name-pro
+{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(224, 28, 159);
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top:20px;
+
+}
+.name-p
+{
+    font-family: 'Baloo Tammudu 2', cursive;
+
+    font-size: 18px;
+    text-align: center;
+    margin-top:15px;
+}
+.option
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.option2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.types
+{
+    font-family: 'Dancing Script', cursive;
+    color:rgb(224, 28, 159);
+    font-size:25px;
+    font-weight: bold;
+}
+
+.group-op
+{   margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.all-img
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.img1
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Tammudu 2', cursive;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    
+    
+}
+.img1 img
+{
+    width: 220px;
+    height: 200px;   
+    border-radius: 10px;
+}
+
+#resipe
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(224, 28, 159);
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.btn-view
+{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.btn-view button
+{
+    background-color: rgb(224, 28, 159);
+    color: white;
+    border-radius: 5px;
+    border:none;
+    height: 50px;
+    width: 90px;
+    
+}
+
+/* footer*/
+footer{
+    height:130px;
+    background-color:  #0f0f0e;
+    color: wheat;
+}
+.contact
+{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Baloo Tammudu 2', cursive;
+  align-items: center;
+}
+.icon-foot
+{    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    
+}
+.icon-foot i
+{
+    margin: 10px;
+}
+
+@media screen and (min-width: 900px) {
+    
+    .navbar ul
+    {
+        display: flex;
+        margin-right: 100px;
+        font-family: 'Baloo Tammudu 2', cursive;
+        font-size: 25px;
+    }
+    #logo
+    {
+        width:230px ;
+        height:210px ;
+    }   
+    .header i
+    {
+        display: none;
+    }
+    #img-cover
+    {
+        
+        height: 480px;
+        width: 50%;
+        margin-left: 30px;
+
+    }
+    .img2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .all-img
+    {
+        display: flex;
+        
+        flex-wrap: wrap;
+        
+    }
+    .head-2
+    {
+        display: flex;
+        height: 500px;
+        flex-direction: row;
+    }
+    .name-pro
+    {
+        font-size: 40px;
+    }
+    .name-p
+    {
+        margin-top: 15px;
+        font-size: 28px;
+        
+    }
+    .img1
+    {
+        width:25%;
+        
+    }
+    .img1 img
+    {
+        width: 85%;
+        height: 80%;   
+        
+    }
+    .name-p
+    {
+
+    }
+    .img1 span
+    {
+        font-size: large;
+    }
+    .types
+    {
+        font-size: 35px;
+    }
+    .btn-view button
+    {
+        
+        height: 60px;
+        width: 130px;
+        font-size: large;
+        
+    }
+    .c-foot
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #resipe
+    {
+        font-size: 40px;
+    }
+    .contact
+    {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+    }
+    .group-op
+    {
+        height: 250px;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        margin-left: 15%;
+        margin-right: 20%;
+    }
+}
